@@ -127,4 +127,17 @@ button:hover {
 
 label {
     padding:5px;
+    margin:10px;
+
+}
+form {
+    background-color:#e65c00;
+    padding:10px;
+    border-radius:2px;
+    margin-left:200px;
+}
+input {
+ background-color: #ddd;
+ color:green;
+ padding:15px;
 }
