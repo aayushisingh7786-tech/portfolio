@@ -20,15 +20,20 @@
 </header>
 <hr>
 <main>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hello! I am a student at Silicon Logic Computer Institute learning
-            Full Stack Python Development.
-            I am passionate about building websites and solving problems with
-            code.
-        </p>
+    <section id="todo-app">
+        <h2>My To-Do List</h2>
+        <div class="todo-wrapper">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="taskList">
+        </ul>
+        <button onclick="clearTasks()" style="background-color: #dc3545; margin-top: 10px;">Clear
+            All</button>
     </section>
+    <script src="script.js"></script>
+    </main>
+
     <section id="skills">
         <h2>My Skills</h2>
         <ul>
